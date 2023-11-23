@@ -4,7 +4,7 @@ import json
 
 app = Flask(__name__)
 
-openai.api_key = "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"
+openai.api_key = "your api key"
 
 def generate_chunks(prompt):
     result = openai.ChatCompletion.create(
